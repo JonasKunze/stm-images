@@ -1,0 +1,80 @@
+;
+;               Omicron SPM Control.
+;           Parameter file for SPM data.
+;
+
+Version                       : V2.1
+
+;
+; User Information.
+;
+
+Date                          : 06.05.14 17:53
+User                          : spm
+Comment                       : 1/2 ML Au
+
+;
+; Scanner Description.
+;
+
+Name                          : MICRO_N_V2_SPEZ.SCA
+VGAP Contact                  : SAMPLE
+
+;
+; Scanner Area Description.
+;
+
+Field X Size in nm            : 20.0000     ;[nm]
+Field Y Size in nm            : 20.0000     ;[nm]
+Image Size in X               : 400
+Image Size in Y               : 400
+Increment X                   : 0.0500000     ;[nm]
+Increment Y                   : 0.0500000     ;[nm]
+Scan Angle                    : 0.00000     ;[Degree]
+X Offset                      : -1500.00     ;[nm]
+Y Offset                      : 500.000     ;[nm]
+
+;
+; Topographic Channels.
+;
+
+Topographic Channel           : Z   ;Channel
+                                Forward 
+                                -327680   ;Minimum raw value
+                                327669   ;Maximum raw value
+                                -270.00   ;Minimum value in physical unit
+                                269.99   ;Maximum value in physical unit
+                                0.00082397   ;Resolution
+                                nm   ;Physical unit
+                                m21_ori.tf0   ;Filename
+
+;
+; Measurement parameters.
+;
+
+SPM Method                    : STM
+X Resolution                  : 0     ;Currently not used.
+Y Resolution                  : 0     ;Currently not used.
+Dual mode                     : Off
+Gap Voltage                   : 0.600000     ;[V]
+Feedback Set                  : 0.600000     ;[nA]
+Loop Gain                     : 15.0000     ;[%]
+Scan Speed                    : 151.515     ;[nm/s]
+X Drift                       : 0.00000     ;[nm/s]
+Y Drift                       : 0.00000     ;[nm/s]
+Scan Mode                     : Frame
+Topography Time per Point     : 0
+Spectroscopy Grid Value in X  : 1
+Spectroscopy Grid Value in Y  : 1
+Spectroscopy Points in X      : 400
+Spectroscopy Lines in Y       : 0
+
+;
+; Z Control Parameters.
+;
+
+Z Speed                       : 1000.00     ;[nm/s]
+Z Output Gain                 : 0.100000
+Automatic Z zero              : On
+Z Input Gain                  : 10.0000
+
