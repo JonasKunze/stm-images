@@ -6,7 +6,7 @@ set xlabel "s [$nm$]"
 set ylabel "H\\\"ohe [$nm$]"
 
 
-set size 1,0.6
+set size 1,0.5
 
 set term epslatex standalone color 8
 set out sprintf('%s.tex',outfile)
